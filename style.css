@@ -1,0 +1,85 @@
+svg {
+  height: 20px;
+}
+
+.container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.card1 {
+  border: 5px solid rgba(10, 12, 117, 0.411);
+  border-radius: 30px;
+  width: 300px;
+  background-color: rgb(49, 49, 63);
+}
+
+.card2 {
+  border: 5px solid rgba(10, 12, 117, 0.411);
+  border-radius: 30px;
+  width: 300px;
+  background-color: rgb(49, 49, 63);
+}
+
+.card3 {
+  border: 5px solid rgba(10, 12, 117, 0.411);
+  border-radius: 30px;
+  width: 300px;
+  background-color: rgb(49, 49, 63);
+}
+
+.titlecard {
+  border: 2px rgba(10, 12, 117, 0.411);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.datelinedots {
+  color: aliceblue;
+  border: 2px rgba(10, 12, 117, 0.411);
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  padding: 20px;
+}
+
+.dots {
+  padding-top: 20px;
+}
+
+.icons {
+  padding: 5px;
+}
+
+img {
+  padding: 40px;
+  border-radius: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: brown;
+    }
+  .container {
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        background-color: rgb(12, 8, 122);
+    }
+  .container {
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+  }
+}
